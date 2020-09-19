@@ -1,0 +1,10 @@
+type Query {
+    entities: [Entity]
+    entity (id: ID!): Entity!
+}
+
+type Entity {
+    id: ID!
+    age: Int!
+    name: String!
+}
